@@ -20,7 +20,11 @@ yarn dev
 ## Project Structure
 ```
 • src/components: Contains reusable React components.
+
 • src/pages: Contains page-specific components.
+
 • src/App.jsx: The main application component.
+
 • src/index.jsx: The entry point for the application.
+
 • vite.config.js: The configuration file for Vite.
