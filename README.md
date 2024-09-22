@@ -1,30 +1,48 @@
-# React + AppWrite Project
+# ⚡ Node.js Starter Function
 
-This project is a starting point for creating sticky notes using react and appwrite, a fast build tool for modern web apps.
+A simple starter function. Edit `src/main.js` to get started and create something awesome! 🚀
 
-## Getting Started
+## 🧰 Usage
 
-1. Install dependencies:
+### GET /ping
 
-```bash
-npm install
-# or
-yarn
+- Returns a "Pong" message.
 
-2. Start the development server:
+**Response**
 
-npm run dev
-# or
-yarn dev
+Sample `200` Response:
 
-## Project Structure
+```text
+Pong
 ```
-• src/components: Contains reusable React components.
 
-• src/pages: Contains page-specific components.
+### GET, POST, PUT, PATCH, DELETE /
 
-• src/App.jsx: The main application component.
+- Returns a "Learn More" JSON response.
 
-• src/index.jsx: The entry point for the application.
+**Response**
 
-• vite.config.js: The configuration file for Vite.
+Sample `200` Response:
+
+```json
+{
+  "motto": "Build like a team of hundreds_",
+  "learn": "https://appwrite.io/docs",
+  "connect": "https://appwrite.io/discord",
+  "getInspired": "https://builtwith.appwrite.io"
+}
+```
+
+## ⚙️ Configuration
+
+| Setting           | Value         |
+| ----------------- | ------------- |
+| Runtime           | Node (18.0)   |
+| Entrypoint        | `src/main.js` |
+| Build Commands    | `npm install` |
+| Permissions       | `any`         |
+| Timeout (Seconds) | 15            |
+
+## 🔒 Environment Variables
+
+No environment variables required.
